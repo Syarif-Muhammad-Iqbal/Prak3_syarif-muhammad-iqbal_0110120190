@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir</title>
+</head>
+<body bgcolor="#FFFAF0">
+    <center><h3>FORMULIR PENGIRIMAN BARANG</h3>
+    <form>
+        <fieldset style="background-color: #FFFAF0">
+            <table width="500">
+                <tr>
+                    <td><u><strong>Data Penerima</strong></u></td>
+                </tr>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>: <input type="text"placeholder="Masukan Nama Anda"></td>
+                </tr>
+                <tr>
+                    <td><label for="no.telepon">No.Telepon</label></td>
+                    <td>: <input type="number"placeholder="Masukan No.Telepon"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat Penerima</label></td>
+                    <td>: <input type="text"placeholder="Masukan Alamat Penerima"></td>
+                </tr>
+                <tr>
+                    <td><label for="provinsi">Provinsi</label></td>
+                    <td>: <input type="text"placeholder="Masukan Nama Provinsi"></td>
+                </tr>
+                <tr>
+                    <td><label for="kota/kabupaten">Kota/Kabupaten</label></td>
+                    <td>: <input type="text"placeholder="Masukan Nama Kota/Kabupaten"></td>
+                </tr>
+                <tr>
+                    <td><label for="kodepos">Kode Pos</label></td>
+                    <td>: <input type="text"placeholder="Masukan Kode Pos"></td>
+                </tr>
+            </table><hr>
+            <table width="500">
+                <tr>
+                    <td><u><strong>Data Pengirim</strong></u></td>
+                </tr>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td>: <input type="nama"placeholder="Masukan Nama Anda"></td>
+                </tr>
+                <tr>
+                    <td><label for="no.telepon">No.Telepon</label></td>
+                    <td>: <input type="number"placeholder="Masukan No.Telepon"></td>
+                </tr>
+                <tr>
+                    <td><label for="alamat">Alamat Penerima</label></td>
+                    <td>: <input type="text"placeholder="Masukan Alamat Penerima"></td>
+                </tr>
+                <tr>
+                    <td><label for="provinsi">Provinsi</label></td>
+                    <td>: <input type="text"placeholder="Masukan Nama Provinsi"></td>
+                </tr>
+                <tr>
+                    <td><label for="kota/kabupaten">Kota/Kabupaten</label></td>
+                    <td>: <input type="text"placeholder="Masukan Nama Kota/Kabupaten"></td>
+                </tr>
+                <tr>
+                    <td><label for="kodepos">Kode Pos</label></td>
+                    <td>: <input type="text"placeholder="Masukan Kode Pos"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <div>
+    <label for="pilihan paket"><u><strong>Metode Pembayaran:</strong></u></label><br>
+    <input type="checkbox">
+    <label for="">Bank BNI</label>
+    <input type="checkbox">
+    <label for="">Bank BRI</label>
+    <input type="checkbox">
+    <label for="">Bank Mandiri</label><br>
+    <input type="checkbox">
+    <label for="">Bank BCA</label>
+    <input type="checkbox">
+    <label for="">Bank Syariah</label><br><br>
+    </div>
+    <div>
+    <label for=""><u><strong>Pembayaran:</strong></u></label><br>
+    <label for="">COD</label>
+    <input type="radio" name="jk"> 
+    <label for="">TUNAI</label>
+    <input type="radio" name="jk"><br><br>
+    </div>
+     <div>
+         <label for="PESAN"><u><strong>Pesan:</strong></u></label><br>
+         <textarea name="" id="" cols="60" rows="10"></textarea>
+     </div>
+     <div>
+        <form action="proses.php" method="get">
+            <p><u><strong>Pengiriman Via:</strong></u>
+            <select name='pengiriman'>
+              <option value='islam'>Jakarta</option>
+              <option value='kristen'>Bandung</option>
+              <option value='katholik'>Banten</option>
+              <option value='hindu'>Bogor</option>
+              <option value='kristen'>Surabaya</option>
+            </select>
+     </div>
+     <input type="submit" value="KIRIM">
+    <br><br>
+</body>
+</html>
